@@ -1,4 +1,6 @@
-package com.FormationTabHost;
+package com.lqdn;
+
+import com.FormationTabHost.R;
 
 import android.app.TabActivity;
 import android.content.Intent;

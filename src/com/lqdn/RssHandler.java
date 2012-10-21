@@ -1,4 +1,4 @@
-package com.FormationTabHost;
+package com.lqdn;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -6,7 +6,7 @@ import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
-import static com.FormationTabHost.BaseFeedParser.*;
+import static com.lqdn.BaseFeedParser.*;
 
 public class RssHandler extends DefaultHandler{
 	private List<Message> messages;

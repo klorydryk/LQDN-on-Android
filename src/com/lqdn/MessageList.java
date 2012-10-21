@@ -1,7 +1,10 @@
-package com.FormationTabHost;
+package com.lqdn;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import com.FormationTabHost.R;
+
 import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;

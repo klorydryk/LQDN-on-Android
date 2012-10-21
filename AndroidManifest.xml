@@ -24,7 +24,7 @@
     	</activity>
     	
     	<activity android:name=".MessageList"></activity>
-    	<activity android:name=".RssArticle"></activity>
+    	<activity android:name="com.lqdn.RssArticle"></activity>
 </application>
 	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
     <uses-sdk android:minSdkVersion="10" />
