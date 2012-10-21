@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView
+	android:id="@+id/initString"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    />
+
+<CheckBox
+    android:id="@+id/quoteBox"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Quote LQDN" />
+
+<CheckBox
+    android:id="@+id/talkBox"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Talk about LQDN" />
+
+<TextView android:id="@+id/finalString" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<EditText
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/editText"
+/>
+<Button android:text="Send to RP..." android:id="@+id/button1" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></Button>
+<TextView android:layout_width="wrap_content" android:text="Waiting..." android:layout_height="wrap_content" android:id="@+id/connectionState" android:layout_gravity="center"></TextView>
+</LinearLayout>

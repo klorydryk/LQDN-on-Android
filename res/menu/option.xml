@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  
+<item android:id="@+id/refresh"
+      android:title="Refresh"
+      android:icon="@android:drawable/ic_menu_rotate"
+      />
+  
+<item android:id="@+id/quitter"
+   	android:title="Quitter"
+    android:icon="@android:drawable/ic_menu_close_clear_cancel"
+    />
+</menu>
